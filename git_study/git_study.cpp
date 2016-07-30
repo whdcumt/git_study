@@ -4,10 +4,10 @@
 using namespace std;
 int _tmain(int argc, _TCHAR* argv[])
 {
-	int a;
-    cout << "请输入一个数字，按回车结束" << endl;
-    cin >> a;
-    cout << a << endl;
+	int a,b;
+    cout << "请输入2个数字，按回车结束" << endl;
+    cin >> a>>b;
+    cout << a <<b<< endl;
     return 0;
 }
 
