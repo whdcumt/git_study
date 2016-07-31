@@ -2,10 +2,15 @@
 //
 
 #include "stdafx.h"
-
-
+#include<iostream>
+using namespace std;
 int _tmain(int argc, _TCHAR* argv[])
-{
-	return 0;
+{   int a,b;
+ 	cout << "请输入2个数字，按回车结束" << endl;
+ 	cin>>a>>b;
+    int sub;
+ 	sum =a-b;
+    cout << "两个数的差为："<< sum<< endl;
+  	return 0;		  	
 }
 
