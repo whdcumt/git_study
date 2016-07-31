@@ -8,9 +8,11 @@ int _tmain(int argc, _TCHAR* argv[])
 {   int a,b;
  	cout << "请输入2个数字，按回车结束" << endl;
  	cin>>a>>b;
-    int sub;
- 	sum =a-b;
-    cout << "两个数的差为："<< sum<< endl;
+    int sub,sum;
+ 	sub =a-b;
+	sum=a+b;
+    cout << "两个数的和为："<< sum<< endl;
+	cout << "两个数的差为："<< sub<< endl;
   	return 0;		  	
 }
 
